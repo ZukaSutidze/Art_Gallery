@@ -1,0 +1,99 @@
+@media (width > 1439px) {
+   /* .Maptohome{
+       height: 685px;
+       width: 1440px;
+       background-image: url(Assets/Map/Desktop-map.svg);
+     } */
+
+     .Mapheader{
+        height: 685px;
+        width: 1440px;
+        background-image: url(Assets/Map/Desktop-map.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .Maptohome{
+        display: none;
+      }
+
+    .Backtohome{
+        padding-left: 156px;
+    }
+
+    .MapBlackbox{
+        width: 1440px;
+        height: 548px;
+     }
+     
+     .MapLocation{
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 70px;
+        line-height: 70px;
+        padding-left: 165px;
+     }
+     
+     .Kingstreet{
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 36px;
+        line-height: 36px; 
+        text-transform: uppercase;
+     }
+      
+     .Newport{
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 22px;
+        line-height: 32px; 
+     }
+
+     .Ournewly{
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 22px;
+        line-height: 32px; 
+        width: 540px;
+     }
+
+     .Kingstreet,
+     .Newport,
+     .Ournewly{
+        position: relative;
+        left: 440px;
+     }
+
+     .MapOrangebox{
+        width: 1440px;
+        height: 244px;
+     }
+
+     .MapModern{
+        font-size: 30px;
+        padding-top: 80px;
+        padding-left: 135px;
+     }
+
+     .Isfree{
+        position: absolute;
+        width: 490px;
+        font-size: 18px;
+        line-height: 28px; 
+        padding: 0;
+        top: 80px;
+        left: 445px;
+     }
+
+     .MapOrangebox img{
+        right: 165px;
+        top: 80px;
+     }
+
+
+
+     .Mapbox:hover{
+        background: var(--Gold, #D5966C);
+        transition: all 2s ease-in-out;
+     }
+
+     
+
+
+}

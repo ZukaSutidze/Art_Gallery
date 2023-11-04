@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --Almost-Black: #151515;
+    --Dark-Grey: #444;
+    --White: #FFF;
+    --Gold: #D5966C;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Big Shoulders Display' , 'Outfit' ;
+    height: auto;
+}
+
+.Container{
+    width: 375px;
+}
+
+.Modern{
+    width: 343px;
+    padding-top: 32px;
+    padding-left: 16px;
+    color: var(--Almost-Black, Backtohome);
+    font-family: 'Big Shoulders Display';
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 91.667% ;
+    text-transform: uppercase;
+}
+
+.The-arts{
+    color: var(--Dark-Grey, #444);
+    font-family: 'Outfit';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 155.556%;
+    width: 343px;
+    padding-top: 32px;
+    padding-left: 16px;
+}
+
+.Parent{
+    width: 260px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Maplink{
+    text-decoration: none;
+}
+
+.Parent{
+    margin-top: 32px;
+    padding-left: 16px;
+}
+
+.Black{
+    width: 204px;
+    height: 72px;
+    background: var(--Almost-Black, Backtohome);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OUR{
+    color: var(--White, #FFF);
+    font-family: 'Big Shoulders Display';
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 3.636px;
+    text-decoration: none;
+}
+
+.Main{
+    padding-top: 120px;
+}
+
+.YourDay{
+    width: 343px;
+    color: var(--Almost-Black, Backtohome);
+    font-family: 'Big Shoulders Display';
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 90%;
+    text-transform: uppercase;
+    padding-top: 21px;
+}
+
+.Wander{
+    width: 343px;
+    color: var(--Dark-Grey, #444);
+    font-family: 'Outfit';
+    font-size: 18px;
+    font-weight: 300;
+    line-height:155.556% ;
+    padding-top: 21px;
+
+}
+
+.Tablet{
+    display: none;
+}
+
+.Table{
+    padding-top: 32px;
+}
+
+.Gallery{
+    padding-top: 16px;
+}
+
+.Blackbox{
+    width: 343px;
+    height: 293px;
+    background: var(--Almost-Black, #151515);
+    margin-top: 16px;
+}
+
+.Come{
+    width: 295px;
+    color: var(--White, #FFF);
+    font-family: 'Big Shoulders Display';
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 90%;
+    text-transform: uppercase;
+    padding-top: 48px;
+    padding-left: 24px;
+}
+
+.excited-to{
+    width: 295px;
+    color: var(--White, #FFF);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 155.556%;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+footer{
+    width: 375px;
+    height: auto;
+    margin-top: 120px;
+    background-color: var(--Almost-Black);
+}
+
+.Modern2{
+    color: var(--White);
+    padding-left: 32px;
+    padding-top: 48px;
+    font-size: 16px;
+}
+
+.The-Modern{
+    padding-left: 32px;
+    padding-top: 38px;
+    width: 311px;
+    color: var(--White, #FFF);
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 162.5%;
+}
+
+.icons{
+    padding-left: 32px;
+    padding-top: 38px;
+    padding-bottom: 48px;
+}
+
+.Mapheader{
+    display: flex;
+    flex-direction: row;
+    text-decoration:none;
+    position: relative;
+    width: 375px;
+    height: 574px;
+    background-image: url(Assets/Map/Maps.svg);
+} 
+
+.Mapbox{
+    width: 208px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.Mapbox p{
+    color: var(--White, #FFF);
+    font-family: 'Big Shoulders Display';
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 3.636px;
+    text-decoration: none;
+}
+
+.Backtohome{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.MapBlackbox{
+    width: 375px;
+    height: auto;
+    background-color:var(--Almost-Black);
+    padding-left: 16px;
+}
+
+.Desktop{
+    display: none;
+}
+
+.MapLocation{
+    width: 343px;
+    color: var(--White);
+    font-family: 'Big Shoulders Display';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 90%;
+    text-transform: uppercase;
+    padding-top: 48px;
+}
+
+.Container{
+    padding-left: 16px;
+}
+
+.Kingstreet{
+    width: 343px;
+    color: var(--Gold, #D5966C);
+    font-family: 'Big Shoulders Display';
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 100%;
+    text-transform: uppercase;
+    padding-top: 48px;
+}
+
+.Newport{
+    width: 343px;
+    color: var(--White, #FFF);
+    font-family: 'Outfit';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 155.556% ;
+    padding: 20px 0px;
+}
+
+.Ournewly{
+    width: 343px;
+    color: var(--White, #FFF);
+    font-family: 'Outfit';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 155.556%;
+    padding-bottom: 56px;
+}
+
+.MapOrangebox{
+    width: 375px;
+    height: auto;
+    background: var(--Gold, #D5966C);
+    position: relative;
+    padding-left: 32px;
+}
+
+.MapModern{
+    font-size: 30px;
+    padding-top: 48px;
+}
+
+.Isfree{
+    width: 311px;
+    color: var(--Almost-Black, #151515);
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 162.5%;
+    padding: 38px 0px ;
+}
+
+.MapOrangebox img{
+    padding-bottom: 48px;
+}

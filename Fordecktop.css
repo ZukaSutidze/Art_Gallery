@@ -1,0 +1,147 @@
+@media (width > 1439px) {
+    header{
+        width: 1440px;      
+    }
+
+    .Desktop{
+        display: flex;
+    }
+
+    .Tablet{
+        display: none;
+    }
+    
+    .DesktopBlackbox{
+        width: 990px;
+        height: 800px;
+        background-color: black;
+        position: relative;
+    }
+
+    .DesktopBlackbox img{
+        position: absolute;
+        right: -1px;
+    }
+
+    .Modern{
+        width: 470px;
+        color: var(--White);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 96px;
+        line-height: 88px; 
+        mix-blend-mode: exclusion;
+        position: absolute;
+        left: -770px;
+    }
+
+    .The-arts {
+        width: 300px;
+        position: absolute;
+        right: 176px;
+        top: 20px;
+    }
+    
+    .Parent{
+        margin-top: 250px;
+        margin-right: 220px;
+    }
+
+    .Container{
+        width: 1440px;
+    }
+
+    .Desktop-art{
+        margin-left: 640px;
+    }
+     
+    .Texts{
+        margin-left: 165px;
+    }
+
+    .YourDay{
+        width: 300px;
+        color: var(--Almost-Black, #151515);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 60px;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+
+    .Wander{
+        width: 300px;
+        color: var(--Dark-Grey, #444);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+    }
+
+    .Forgrid {
+    padding-top: 30px;
+    }
+
+    .Desktop-table{
+     position: relative;
+     left: 165px;
+    }
+
+    .Desktop-gallery{
+        padding-left: 30px;
+    }
+
+    .Blackbox{
+        margin-left: 30px;
+        width: 445px;
+        height: 391px;
+        display: flex;
+        position: relative;
+    }
+
+    .Come{
+        padding: 0;
+        position: absolute;
+        left: 48px;
+        top: 65px;
+        width: 350px;
+        color: var(--White, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 60px;
+        line-height: 60px; 
+        text-transform: uppercase;
+    }
+
+    .excited-to{
+        padding: 0;
+        width: 320px;
+        position: absolute;
+        left: 48px;
+        top: 217px;
+    }
+
+
+    footer{
+        width: 100vw;
+    }
+
+    .Modern2{
+       position: relative;
+       font-size: 25px;
+       padding-left: 165px;
+       padding-top: 80px;
+       padding-bottom: 106px;
+    }
+
+    .The-Modern{
+        width: 430px;
+        left: 465px;
+        top: 80px;
+        bottom: 80px;
+    }
+
+    .icons{
+        right: 165px;
+        top:80px
+    }
+   
+ 
+}

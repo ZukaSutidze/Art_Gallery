@@ -1,0 +1,112 @@
+@media (width > 767px) {
+
+    .Mobile{
+        display: none;
+    }
+
+
+    .Container{
+        width: 767px;
+        position: relative;
+    }
+
+    .Tablet{
+        display: flex;
+    }
+
+    header{
+        width: 768px;
+        position: relative;
+    }
+
+    .ForHeader{
+        position: absolute;
+        top: 145px;
+        right: 40px;
+    }
+
+    .Texts{
+        position: absolute;
+        left: 39px;
+    }
+
+    .YourDay{
+        width: 223px;
+        font-size: 50px;
+        line-height: 90%;
+        text-transform: uppercase;
+    }
+
+    .Wander{
+        width: 223px;
+        font-size: 18px;
+        line-height: 155.556%;
+        padding-top: 24px;
+    }
+
+    .Tablet-art{
+        padding-left: 330px;
+    }
+
+    .Forgrid{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-top: 11px;
+    }
+
+    .Blackbox{
+        width: 280px;
+        height: 396px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Come{  
+        padding-top: 85px;
+        font-size: 50px;
+        line-height: 90%;
+        text-transform: uppercase;
+        padding-left: 29px;
+    }
+
+    .excited-to{
+        width: 237px;
+        font-size: 18px;
+        line-height: 155.556%;
+        padding-left: 29px;
+    }
+
+    footer{
+       width: 768px;
+       display: flex;
+       flex-direction: row;
+       position: relative;
+    }
+
+    .Modern2{
+        font-size: 20px;
+        padding-left: 39px;
+        padding-top: 56px;
+        padding-bottom: 120px;
+    }
+
+    .The-Modern{
+        padding: 0;
+        width: 281px;
+        font-size: 16px;
+        line-height: 162.5%;
+        position: absolute;
+        left: 214px;
+        top: 56px;
+    }
+
+    .icons{
+        padding: 0;
+        position: absolute;
+        right: 40px;
+        top: 56px;
+    }
+
+
+     
+}
