@@ -180,6 +180,15 @@ footer{
     line-height: 162.5%;
 }
 
+.Orange{
+    width: 56px;
+    height: 72px;
+    background-color: var(--Gold, #D5966C);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .icons{
     padding-left: 32px;
     padding-top: 38px;
@@ -304,4 +313,14 @@ footer{
 
 .MapOrangebox img{
     padding-bottom: 48px;
+}
+
+.Parent:hover .Orange{
+    background: var(--Almost-Black, #151515);
+    transition: all 0.3s ;
+}
+
+.Parent:hover .Black{
+    background: var(--Gold, #D5966C);
+    transition: all 0.3s ;
 }

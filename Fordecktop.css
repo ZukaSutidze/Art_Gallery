@@ -3,6 +3,10 @@
         width: 1440px;      
     }
 
+    body{
+        overflow-x: hidden;
+    }
+
     .Desktop{
         display: flex;
     }

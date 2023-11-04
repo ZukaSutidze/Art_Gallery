@@ -86,12 +86,16 @@
         top: 80px;
      }
 
-
-
-     .Mapbox:hover{
-        background: var(--Gold, #D5966C);
-        transition: all 2s ease-in-out;
+     .Backtohome:hover .Mapbox{
+       background: var(--Gold, #D5966C);
+       transition: all 0.3s ;
      }
+
+     .Backtohome:hover .Orange2{
+      background: var(--Almost-Black, #151515);
+      transition: all 0.3s ;
+    }
+
 
      
 
