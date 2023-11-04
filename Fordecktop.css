@@ -146,6 +146,16 @@
         right: 165px;
         top:80px
     }
+
+    .Parent:hover .Orange{
+        background: var(--Almost-Black, #151515);
+        transition: all 0.3s ;
+    }
+    
+    .Parent:hover .Black{
+        background: var(--Gold, #D5966C);
+        transition: all 0.3s ;
+    }
    
  
 }
